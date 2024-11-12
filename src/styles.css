@@ -1,0 +1,67 @@
+
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.icon-button:hover {
+  background-color: #e0e0e0;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.icon-button:hover {
+  background-color: #e0e0e0;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+.user-avatar-container {
+    position: relative;
+  }
+
+  .availability-indicator {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+
+  .availability-indicator.available {
+    background-color: #22c55e;
+  }
+
+  .availability-indicator.unavailable {
+    background-color: #9ca3af;
+  }
+
+  .feature-indicator{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #9ca3af;
+  }

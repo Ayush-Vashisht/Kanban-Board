@@ -1,0 +1,19 @@
+.kanban-board {
+  padding: 10px, 0px;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 20px;
+  background: white;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  align-items: start;
+
+  min-height: 100vh;
+  background: #f4f5f8;
+}
