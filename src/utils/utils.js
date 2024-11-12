@@ -15,7 +15,7 @@ export const getPriorityIcon = (priority) => {
   
   export const getStatusIcon = (group) => {
     switch (group) {
-      case "In Progress":
+      case "In progress":
         return "in-progress.svg";
       case "Todo":
         return "To-do.svg";
