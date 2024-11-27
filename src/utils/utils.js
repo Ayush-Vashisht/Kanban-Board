@@ -15,7 +15,7 @@ export const getPriorityIcon = (priority) => {
   
   export const getStatusIcon = (group) => {
     switch (group) {
-      case "In Progress":
+      case "In progress":
         return "in-progress.svg";
       case "Todo":
         return "To-do.svg";
@@ -29,7 +29,7 @@ export const getPriorityIcon = (priority) => {
   };
   
   export const priorityOrder = ["No Priority", "Urgent", "High", "Medium", "Low"];
-  export const statusOrder = ["Backlog", "Todo", "In Progress", "Done", "Cancelled"];
+  export const statusOrder = ["Backlog", "Todo", "In progress", "Done", "Cancelled"];
 
   export const groupingOptions = [
     { value: "status", label: "Status" },
