@@ -1,4 +1,3 @@
-
 import { getPriorityIcon, getStatusIcon } from "../../utils/utils";
 import Ticket from "../Ticket/Ticket";
 import "./Column.css";
@@ -41,6 +40,14 @@ export default function Column({ group, tickets, groupBy, users }) {
           )}
           <h2>{group}</h2>
           <span className="ticket-count">{tickets.length}</span>
+        </div>
+        <div className="column-header-right">
+          <button className="icon-button">
+            <img src="add.svg" alt="Add" className="icon" />
+          </button>
+          <button className="icon-button">
+            <img src="3 dot menu.svg" alt="Menu" className="icon" />
+          </button>
         </div>
       </div>
       <div className="tickets">

@@ -1,5 +1,4 @@
-
-
+import { groupingOptions, sortOptions } from "../../utils/utils";
 import "./Dropdown.css";
 
 export default function Dropdown({
@@ -10,17 +9,6 @@ export default function Dropdown({
   isDropdownOpen,
   setIsDropdownOpen,
 }) {
-  const groupingOptions = [
-    { value: "status", label: "Status" },
-    { value: "user", label: "User" },
-    { value: "priority", label: "Priority" },
-  ];
-
-  const sortOptions = [
-    { value: "priority", label: "Priority" },
-    { value: "title", label: "Title" },
-  ];
-
   return (
     <div className="display-dropdown">
       <button

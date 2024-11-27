@@ -13,7 +13,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   align-items: start;
-
   min-height: 100vh;
   background: #f4f5f8;
 }

@@ -39,16 +39,16 @@ To get started with the project, clone this repository and install the necessary
 
 **Run the Application To start the app, run:**
 
-    npm start
+    npm run dev
     
-This will start the app in development mode. Open http://localhost:3000 in your browser to see the application.
+This will start the app in development mode.
 ## Scripts
 
 In the project directory, you can run the following scripts:
 
-    npm start
+    npm run dev
 
-Starts the app in development mode. Access it at http://localhost:3000.
+Starts the app in development mode.
 
     npm run build
 

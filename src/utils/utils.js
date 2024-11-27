@@ -31,6 +31,17 @@ export const getPriorityIcon = (priority) => {
   export const priorityOrder = ["No Priority", "Urgent", "High", "Medium", "Low"];
   export const statusOrder = ["Backlog", "Todo", "In Progress", "Done", "Cancelled"];
 
+  export const groupingOptions = [
+    { value: "status", label: "Status" },
+    { value: "user", label: "User" },
+    { value: "priority", label: "Priority" },
+  ];
+
+  export const sortOptions = [
+    { value: "priority", label: "Priority" },
+    { value: "title", label: "Title" },
+  ];
+
   const priorityLabels = {
     4: "Urgent",
     3: "High",

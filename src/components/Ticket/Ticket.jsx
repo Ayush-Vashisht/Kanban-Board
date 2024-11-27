@@ -1,5 +1,3 @@
-
-
 import { getPriorityIcon, getStatusIcon } from "../../utils/utils";
 import "./Ticket.css";
 
